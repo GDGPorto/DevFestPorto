@@ -1,0 +1,60 @@
+{   "chaperName" : "GDG Porto",
+    "chapterSocialMediaLinks": {
+        "facebook" : "https://www.facebook.com/GDGPorto/",
+        "googlePlus" : "",
+        "twitter" : "https://twitter.com/gdgporto",
+        "meetup" : "https://www.meetup.com/GDG-Porto/",
+        "youtube" : "https://www.youtube.com/channel/UCbk5t8o_gkmR-zQemAgDOkA",
+        "slack" : "https://gdgporto.slack.com/",
+        "linkedin" : "",
+        "github" : ""
+    },
+    "aboutSection":[
+        {
+            "linkName" : "GDG Porto",
+            "link" : "https://www.meetup.com/GDG-Porto/"
+        },
+        {
+            "linkName" : "Google Developers Groups",
+            "link" : "https://developers.google.com/programs/community/gdg/"
+        },
+        {
+            "linkName" : "Become a Member",
+            "link" : "https://docs.google.com/forms/d/e/1FAIpQLSekOVgbhgerOKxSQjrTqRLs2MHh2IrH8LW9NRZlph8Ng2mJCA/viewform"
+        }
+    ],
+    "eventResourcesSection" : [
+        {
+            "linkName" : "Become a Sponsor",
+            "link" : "devfest@gdgporto.xyz"
+        },
+        {
+            "linkName" : "Call for Papers",
+            "link" : "https://t.co/hMexj5LKvm"
+        }
+    ],
+    "DevConsole" : [
+        {
+            "linkName" : "Google API Console",
+            "link" : "https://console.developers.google.com/"
+        },
+        {
+            "linkName" : "Google Play Console",
+            "link" : "https://console.cloud.google.com/"
+        },
+        {
+            "linkName" : "Firebase Console",
+            "link" : "https://console.firebase.google.com/"
+        }
+    ],
+    "footerEndSection" : [
+        {
+            "linkName" : "Code of Conduct",
+            "link" : "https://docs.google.com/document/d/1Wz_w6Z7usMnXKFMpOY4IPbA35twK7Uc4CAxScGDiwOk/edit"
+        },
+        {
+            "linkName" : "",
+            "link" : ""
+        }
+    ]
+}

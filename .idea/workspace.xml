@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d08ae93e-884c-49fa-8c39-45c39cb0a919" name="Default Changelist" comment="updated with ticket resources&#10;updated jsons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/speakers.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/speakers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/popup/speakersPopup.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/popup/speakersPopup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/speakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/speakers.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +170,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -197,9 +192,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-36" />
     <option name="y" value="23" />
-    <option name="width" value="1455" />
+    <option name="width" value="951" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -236,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545937185072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545938075880" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,9 +286,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-36" y="23" width="1455" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="951" height="1027" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.209622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32071504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

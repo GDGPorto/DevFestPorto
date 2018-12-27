@@ -1,0 +1,88 @@
+{
+    "theme-title" : "GDG Porto",
+    "eventName" : "GDG Porto DevFest",
+    "ytvideo" : "https://www.youtube.com/embed/Osn5Y6N5rG0",
+    "devfest18DetailsSmall" : "DevFest is a community-run developer event that focus on bridging together the community and Google’s technologies.",
+    "eventMeetupLink" : "https://t.co/hMexj5LKvm",
+    "eventTicketLink" : "https://hello.last2ticket.com/event/1261/",
+    "eventDate" : "26th January 2019",
+    "eventTime" : "From 9:00 to 17.00 pm",
+    "eventVenue" : "ISEP",
+    "hashTag" : [
+        {
+            "name" : "#GDGPorto"
+        },
+        {
+            "name" : "#DevFest"
+        },
+        {
+            "name" : "#DevFestStories"
+        }
+    ],
+    "socialLinks":[
+        {
+            "name" : "facebook",
+            "link" : "https://www.facebook.com/GDGPorto/",
+            "icon" : "fa-facebook"
+        },
+        {
+            "name" : "twitter",
+            "link" : "https://twitter.com/gdgporto",
+            "icon" : "fa-twitter"
+        },
+        {
+            "name" : "meetup",
+            "link" : "https://www.meetup.com/GDG-Porto",
+            "icon" : "fa-meetup"
+        }
+    ],
+    "overviewSection":[
+        {
+            "title" : "Sessions",
+            "des" : "Android, Web and Cloud technologies",
+            "icon" : "fa-microphone"
+        },
+        {
+            "title" : "Workshops",
+            "des" : "Create a working prototype during the conference",
+            "icon" : "fa-users"
+        },
+        {
+            "title" : "Showcases",
+            "des" : "Check the latest of Google tech",
+            "icon" : "fa-lightbulb-o"
+        },
+        {
+            "title" : "Networking",
+            "des" : "Meet the people that with you build the industry",
+            "icon" : "fa-american-sign-language-interpreting"
+        }
+    ],
+    "states":{
+        "title" : "On the edge of Android, Web and Cloud.",
+        "des" : "Porto DevFest will bring the people who shape the future of Android, Web and Cloud technologies. Come and see for yourself for how the experts do and use their skills to improve their day to day.",
+        "previousEventHighlight" : "https://www.youtube.com/watch?v=O46SRrFxR4c",
+
+        "statistics":[
+            {
+                "quantity" : "200+",
+                "title" : "Attendees",
+                "icon" : "fa-microphone"
+            },
+            {
+                "quantity" : "8+",
+                "title" : "Speakers",
+                "icon" : "fa-american-sign-language-interpreting"
+            }
+        ]
+    },
+    "speakerSection" : {
+        "title" : "Some of the best and brightest in the industry",
+        "des" : "You'll be inspired, learn and have opportunity to talk to some of leading front experts in the community."
+    },
+    "sessionsSection" : {
+        "title" : "Sessions",
+        "des" : "These sessions will let you discover what's new about the cloud, product innovation, ML and AI."
+    }
+
+}

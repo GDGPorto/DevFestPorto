@@ -1,0 +1,21 @@
+[
+    {
+        "name":"Panayotis Tzinis - GDE",
+        "company":"X-Lab",
+        "profileImg":"assets/img/speakers/Panayotis_Tzinis.jpg",
+        "description": "Panayotis is the lead of the X-Lab for Moonshot Lab. He coordinates all the creative+tech activities of the Lab and focuses on implementing radical solutions using existing advanced technology.",
+        "socialNetwork": "https://twitter.com/ptzinis"
+    },
+    {
+        "name":"Inês Santos Silva",
+        "company":"Portuguese Women in Tech",
+        "profileImg":"assets/img/speakers/Ines_Santos.jpg",
+        "description": "Inês Silva is a co-founder at Portuguese Women in Tech and a Managing Partner at Aliados, an impact driven consulting firm working with public and private organisations to solve some of their biggest social and environmental challenges.",
+        "socialNetwork": "https://www.linkedin.com/in/inessantossilva"
+    },
+    {
+      "name":"Coming Soon",
+      "company":"",
+        "profileImg":"assets/img/speakers/avatar.png"
+    }
+]

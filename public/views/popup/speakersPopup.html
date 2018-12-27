@@ -1,0 +1,23 @@
+<div>
+    <div class="modal-header">
+        <h3 class="modal-title">{{speaker.name}}</h3>
+        <div class="close" ng-click="onClosePopup()" aria-label="Close">
+            <i class="fa fa-times"></i>
+        </div>
+    </div>
+    <div class="modal-body container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-4 text-center">
+                <img src="{{speaker.profileImg}}" alt="Speaker Image" width="100%" />
+            </div>
+            <div class="col-md-8 col-6 text-center">
+                <span style="font-family: google-sans">{{speaker.description}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="{{speaker.socialNetwork}}" target="_blank">
+            <i class="fa fa-link" aria-hidden="true" style="color:#2E2E2E;"></i>
+        </a>
+    </div>
+</div>
