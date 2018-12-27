@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08ae93e-884c-49fa-8c39-45c39cb0a919" name="Default Changelist" comment="updated with ticket resources&#10;updated jsons">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/data/speakers.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/speakers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/popup/speakersPopup.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/popup/speakersPopup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/speakers.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/speakers.html" afterDir="false" />
     </list>
@@ -238,7 +236,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545919694894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545937185072" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -295,9 +293,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-36" y="23" width="1455" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.209622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.209622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -312,7 +309,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3226773" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6140167" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6140167" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33742332" />
