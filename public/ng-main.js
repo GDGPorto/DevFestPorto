@@ -47,12 +47,14 @@ app.controller('speakersCtrl',function($scope, $http, $modal){
     .then(res=>res.json())
     .then(data => {
         $scope.speakersData = data;
+            digest($scope);
     })
 
     fetch('data/patners.json')
     .then(res=>res.json())
     .then(data => {
         $scope.patData = data;
+            digest($scope);
     })
 
     $scope.open = function (sp) {
@@ -86,12 +88,14 @@ app.controller('sessionsCtrl',function($scope, $http){
     .then(res=>res.json())
     .then(data => {
         $scope.sessionsData = data;
+            digest($scope);
     })
 
     fetch('data/patners.json')
     .then(res=>res.json())
     .then(data => {
         $scope.patData = data;
+            digest($scope);
     })
     
     $scope.varSessions = true;
@@ -168,6 +172,7 @@ app.controller('regCtrl',function($scope,$http){
     .then(res=>res.json())
     .then(data => {
         $scope.regJson = data;
+            digest($scope);
     })
 
     document.getElementById('UserDetails').style.display = "none";
@@ -337,6 +342,7 @@ app.controller('attendingCtrl',function($scope,$http){
     .then(res=>res.json())
     .then(data => {
         $scope.regJson = data;
+            digest($scope);
     })
 
  
@@ -349,6 +355,7 @@ app.controller('ctrlSchedule',function($scope,$http){
     .then(res=>res.json())
     .then(data => {
         $scope.schData = data;
+            digest($scope);
 })
 
 $scope.schData = edata;
@@ -359,5 +366,6 @@ app.controller('footerCtrl',function($scope){
     .then(res=>res.json())
     .then(data => {
         $scope.footerData = data;
+            digest($scope);
     })
 })
