@@ -1,3 +1,9 @@
+var digest = function (scope) {
+    if (scope && scope.$root && !scope.$root.$$phase) {
+        scope.$digest();
+    }
+};
+
 var app = angular.module('gdgapp',['ngRoute','ngAnimate', 'ui.bootstrap']).
                 config(function($routeProvider,$locationProvider){
                     $locationProvider.html5Mode(true)
@@ -122,30 +128,33 @@ app.controller('sessionsCtrl',function($scope, $http){
 app.controller('homeCtrl',function($scope,$http){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-    var cv = $http.get('data/home.json');
 
     fetch('data/home.json')
     .then(res=>res.json())
     .then(data => {
         $scope.homeJson = data;
+            digest($scope);
     })
 
     fetch('data/sessions.json')
     .then(res=>res.json())
     .then(data => {
         $scope.sessionsData = data;
+            digest($scope);
     })
 
     fetch('data/speakers.json')
     .then(res=>res.json())
     .then(data => {
         $scope.speakersData = data;
+            digest($scope);
     })
 
     fetch('data/patners.json')
     .then(res=>res.json())
     .then(data => {
         $scope.patData = data;
+            digest($scope);
     })
 })
 
