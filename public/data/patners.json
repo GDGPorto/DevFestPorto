@@ -28,6 +28,18 @@
             "width":"140h"
         },
         {
+            "name":"XING",
+            "URL":"https://www.xing.com/",
+            "PartnerImg":"assets/img/patners/XING.png",
+            "width":"140h"
+        },
+        {
+            "name":"COCUS",
+            "URL":"https://www.cocus.com/",
+            "PartnerImg":"assets/img/patners/cocus.png",
+            "width":"140h"
+        },
+        {
             "name":"Portuguese Women in Tech",
             "URL":"http://www.portuguesewomenintech.com/",
             "PartnerImg":"assets/img/patners/PWIT.jpg",
