@@ -33,13 +33,6 @@
       "sponsorType": "partner"
     },
     {
-      "name": "Critical",
-      "URL": "http://www.criticalmanufacturing.com",
-      "PartnerImg": "assets/img/patners/critical.jpg",
-      "width": "100h",
-      "sponsorType": "gold"
-    },
-    {
       "name": "WIT Software",
       "URL": "https://www.wit-software.com/",
       "PartnerImg": "assets/img/patners/wit-logo.png",
@@ -57,6 +50,13 @@
       "name": "Hostelworld",
       "URL": "https://www.Hostelworld.com/",
       "PartnerImg": "assets/img/patners/hostelworld.png",
+      "width": "100h",
+      "sponsorType": "gold"
+    },
+    {
+      "name": "Critical",
+      "URL": "http://www.criticalmanufacturing.com",
+      "PartnerImg": "assets/img/patners/critical.jpg",
       "width": "100h",
       "sponsorType": "gold"
     },
