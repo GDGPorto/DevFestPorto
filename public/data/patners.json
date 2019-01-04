@@ -1,49 +1,85 @@
 {
-    "title":"Our Partners",
-    "description":"Interested in becoming a sponsor? Contact us for opportunities to be showcased throughout the event.",
-    "email": "devfest@gdgporto.xyz",
-    "partnersName" : [
-        {
-            "name":"Google",
-            "URL":"https://www.google.com/",
-            "PartnerImg":"assets/img/patners/google.png",
-            "width":"140h"
-        },
-        {
-            "name":"Google Developers Groups",
-            "URL":"https://developers.google.com/programs/community/gdg/",
-            "PartnerImg":"assets/img/patners/GDG-program-logo.png",
-            "width":"200h"
-        },
-        {
-            "name":"ISEP",
-            "URL":"https://www.isep.ipp.pt/",
-            "PartnerImg":"assets/img/patners/isep.png",
-            "width":"200h"
-        },
-        {
-            "name":"Critical",
-            "URL":"http://www.criticalmanufacturing.com",
-            "PartnerImg":"assets/img/patners/critical.jpg",
-            "width":"140h"
-        },
-        {
-            "name":"XING",
-            "URL":"https://www.xing.com/",
-            "PartnerImg":"assets/img/patners/XING.png",
-            "width":"140h"
-        },
-        {
-            "name":"COCUS",
-            "URL":"https://www.cocus.com/",
-            "PartnerImg":"assets/img/patners/COCUS.png",
-            "width":"140h"
-        },
-        {
-            "name":"Portuguese Women in Tech",
-            "URL":"http://www.portuguesewomenintech.com/",
-            "PartnerImg":"assets/img/patners/PWIT.jpg",
-            "width":"200h"
-        }
-    ]
+  "title": "Our Sponsors",
+  "description": "Interested in becoming a sponsor? Contact us for opportunities to be showcased throughout the event.",
+  "email": "devfest@gdgporto.xyz",
+  "partnersName": [
+    {
+      "name": "Google",
+      "URL": "https://www.google.com/",
+      "PartnerImg": "assets/img/patners/google.png",
+      "width": "100h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "Google Developers Groups",
+      "URL": "https://developers.google.com/programs/community/gdg/",
+      "PartnerImg": "assets/img/patners/GDG-program-logo.png",
+      "width": "160h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "ISEP",
+      "URL": "https://www.isep.ipp.pt/",
+      "PartnerImg": "assets/img/patners/isep.png",
+      "width": "160h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "Portuguese Women in Tech",
+      "id" : "PWIT",
+      "URL": "http://www.portuguesewomenintech.com/",
+      "PartnerImg": "assets/img/patners/PWIT.jpg",
+      "width": "160h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "Critical",
+      "URL": "http://www.criticalmanufacturing.com",
+      "PartnerImg": "assets/img/patners/critical.jpg",
+      "width": "100h",
+      "sponsorType": "gold"
+    },
+    {
+      "name": "WIT Software",
+      "URL": "https://www.wit-software.com/",
+      "PartnerImg": "assets/img/patners/wit-logo.png",
+      "width": "100h",
+      "sponsorType": "gold"
+    },
+    {
+      "name": "ebankIt",
+      "URL": "https://www.ebankIt.com/",
+      "PartnerImg": "assets/img/patners/ebankIt.png",
+      "width": "100h",
+      "sponsorType": "gold"
+    },
+    {
+      "name": "Hostelworld",
+      "URL": "https://www.Hostelworld.com/",
+      "PartnerImg": "assets/img/patners/hostelworld.png",
+      "width": "100h",
+      "sponsorType": "gold"
+    },
+    {
+      "name": "XING",
+      "URL": "https://www.xing.com/",
+      "PartnerImg": "assets/img/patners/XING.png",
+      "width": "100h",
+      "sponsorType": "silver"
+    },
+    {
+      "name": "COCUS",
+      "URL": "https://www.cocus.com/",
+      "PartnerImg": "assets/img/patners/COCUS.png",
+      "width": "100h",
+      "sponsorType": "bronze"
+    },
+    {
+      "name": "Mindera",
+      "URL": "https://www.mindera.com/",
+      "PartnerImg": "assets/img/patners/mindera.png",
+      "width": "100h",
+      "sponsorType": "bronze"
+    }
+  ]
 }
