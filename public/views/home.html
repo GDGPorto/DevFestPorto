@@ -154,18 +154,7 @@
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 mt-4" ng-repeat="sedt in sessionsData | limitTo : 1"
-                             ng-click="open(sedt)">
-                            <div class="white p-3 pt-4"
-                                 style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-radius: 8px;height:100%">
-                                <img src="assets/img/gdg logo.svg" alt="GDG Logo" width="30vh"
-                                     style="background:#fafafa;border-radius: 2px;" class="mb-3">
-                                <h5 style="font-family: google-sans;">{{sedt.title}}</h5>
-                                <p>{{sedt.des}}</p>
-                            </div>
-                        </div>
-                    </div>
+                    <div ng-include src="'views/speakerRow.html'"></div>
                 </div>
             </div>
         </div>
@@ -174,61 +163,4 @@
 </div>
 
 <!--PARTNERS-->
-<div class="row mt-5 pb-5">
-    <div class="col-md-6 offset-md-3 text-center mt-5">
-        <h3 style="font-family: google-sans;color: #1a73e8;" class="mb-3">{{patData.title}}</h3>
-        <p>{{patData.description}}</p>
-    </div>
-    <div class="col-md-6 offset-md-3 mt-2">
-        <h4 style="font-family: google-sans;">Partners</h4>
-        <div class="row container-fluid">
-            <div class="col-4 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
-                 ng-if="pd.sponsorType == 'partner'">
-                <div class="white p-3 pt-4"
-                     style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-radius: 8px;display:block;margin-left: auto;margin-right: auto">
-                    <a href="{{pd.URL}}" target="_blank" class="mb-5">
-                        <img src="{{pd.PartnerImg}}" style="max-width:100%;max-height:100%;">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <br>
-        <h4 style="font-family: google-sans;">Gold Sponsors</h4>
-        <div class="row container-fluid">
-            <div class="col-4 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
-                 ng-if="pd.sponsorType == 'gold'">
-                <div class="white p-3 pt-4"
-                     style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-radius: 8px;display:block;margin-left: auto;margin-right: auto">
-                    <a href="{{pd.URL}}" target="_blank" class="mb-5">
-                        <img src="{{pd.PartnerImg}}" style="max-width:100%;max-height:100%;"></a>
-                </div>
-            </div>
-        </div>
-        <br>
-        <h4 style="font-family: google-sans;">Silver Sponsors</h4>
-        <div class="row container-fluid">
-            <div class="col-3 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
-                 ng-if="pd.sponsorType == 'silver'">
-                <div class="white p-3 pt-4"
-                     style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-radius: 8px;display:block;margin-left: auto;margin-right: auto">
-                    <a href="{{pd.URL}}" target="_blank" class="mb-5">
-                        <img src="{{pd.PartnerImg}}" style="max-width:100%;max-height:100%;"></a>
-                </div>
-            </div>
-        </div>
-        <br>
-        <h4 style="font-family: google-sans;">Bronze Sponsors</h4>
-        <div class="row container-fluid">
-            <div class="col-3 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
-                 ng-if="pd.sponsorType == 'bronze'">
-                <div class="white p-3 pt-4"
-                     style="border-color:#e0e0e0;border-width: 1px;border-style: solid;border-radius: 8px;display:block;margin-left: auto;margin-right: auto">
-                    <a href="{{pd.URL}}" target="_blank" class="mb-5">
-                        <img src="{{pd.PartnerImg}}" style="max-width:100%;max-height:100%;"></a>
-                </div>
-            </div>
-        </div>
-        <br>
-    </div>
-    <br>
-</div>
+<div ng-include src="'views/sponsors.html'"></div>

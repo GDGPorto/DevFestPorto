@@ -345,7 +345,12 @@ app.controller('attendingCtrl',function($scope,$http){
             digest($scope);
     })
 
- 
+  fetch('data/patners.json')
+     .then(res=>res.json())
+     .then(data => {
+         $scope.patData = data;
+             digest($scope);
+     })
 })
 
 app.controller('ctrlSchedule',function($scope,$http){
