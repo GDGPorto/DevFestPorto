@@ -68,16 +68,16 @@
       "sponsorType": "silver"
     },
     {
-      "name": "COCUS",
-      "URL": "https://www.cocus.com/",
-      "PartnerImg": "assets/img/patners/COCUS.png",
+      "name": "Mindera",
+      "URL": "https://www.mindera.com/",
+      "PartnerImg": "assets/img/patners/mindera.png",
       "width": "100h",
       "sponsorType": "bronze"
     },
     {
-      "name": "Mindera",
-      "URL": "https://www.mindera.com/",
-      "PartnerImg": "assets/img/patners/mindera.png",
+      "name": "COCUS",
+      "URL": "https://www.cocus.com/",
+      "PartnerImg": "assets/img/patners/COCUS.png",
       "width": "100h",
       "sponsorType": "bronze"
     }
