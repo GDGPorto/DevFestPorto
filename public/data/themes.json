@@ -1,0 +1,18 @@
+[
+  {
+    "title": "TensorFlow",
+    "des": "TensorFlow™ is an open source software library for high performance numerical computation. Its flexible architecture allows easy deployment of computation across a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters of servers to mobile and edge devices. Originally developed by researchers and engineers from the Google Brain team within Google’s AI organization, it comes with strong support for machine learning and deep learning and the flexible numerical computation core is used across many other scientific domains."
+  },
+  {
+    "title": "Flutter",
+    "des": "Flutter is Google’s mobile app SDK for crafting high-quality native interfaces on iOS and Android in record time. Flutter is an easy and fast way to build beautiful mobile apps. If you are an experienced iOS or Android developer, you can use Flutter for your views and leverage much of your existing Java/Kotlin/ObjC/Swift investment."
+  },
+  {
+    "title": "Go",
+    "des": "Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language."
+  },
+  {
+    "title": "Firebase",
+    "des": "Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users. It's built on Google infrastructure and scales automatically, for even the largest apps."
+  }
+]

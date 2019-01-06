@@ -160,6 +160,13 @@ app.controller('homeCtrl',function($scope,$http){
         $scope.patData = data;
             digest($scope);
     })
+
+    fetch('data/themes.json')
+        .then(res=>res.json())
+        .then(data => {
+            $scope.themesData = data;
+                digest($scope);
+        })
 })
 
 app.controller('regCtrl',function($scope,$http){

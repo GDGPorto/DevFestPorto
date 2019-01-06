@@ -1,7 +1,7 @@
 [
   {
     "name": "Panayotis Tzinis",
-    "title": "GDE",
+    "title": "GDE, Design",
     "company": "X-Lab",
     "profileImg": "assets/img/speakers/Panayotis_Tzinis.jpg",
     "description": "Panayotis (AKA Darth), is the Intelligence Tech Lead of the X | Lab. The X Lab is a tech tank based  on the planet of Mustafar, where crazy people, from scientists to artists, to developers to technologists, share their ideas in order to create moonshots! A moonshot is a radical solution, integrating breakthrough technology with native thinking. More than on projects we are exploring ambitions! Darth is also a Google Developer Expert on Product Design, and a GDE on Google Pay focusing on AI and Human Interface behaviour and a Google Sprint Master.",
@@ -17,10 +17,34 @@
   },
   {
     "name": "Sam Bellen",
-    "title": "GDE",
+    "title": "GDE, Security",
     "company": "Auth0",
     "profileImg": "assets/img/speakers/Sam_Bellen.png",
     "description": "Sam Bellen is a Google Developer Expert who works as a Developer Evangelist at Auth0. At Auth0 we’re trying to make authentication and identification as easy as possible, while still keeping it secure. After office hours he likes to play around with the web-audio API, and other “exotic” browser API’s. One of his side projects is a library to add audio effects to an audio input using JavaScript.  When he's not behind a computer, you can find him playing the guitar, having a beer at a concert, or trying to snap the next perfect picture.",
     "socialNetwork": "https://twitter.com/sambego"
+  },
+  {
+    "name": "Isabel Costa",
+    "title": "Open Source, Android",
+    "company": "Grupo Imprensa",
+    "profileImg": "assets/img/speakers/Isabel_Costa.png",
+    "description": "Isabel is a Software Developer at Grupo Impresa. She got into Open Source through Google Summer of Code (GSoC) program in 2018. During her time as a GSoC student, she started a project with Systers Open Source community, using python for the backend and Kotlin for the Android application. She started as a student and now is one of the maintainers of the project, using it to help beginners at Open Source do their first contributions.",
+    "socialNetwork": "https://twitter.com/isabelcmdcosta"
+  },
+  {
+    "name": "Filipe Barroso",
+    "title": "Flutter, Tensorflow",
+    "company": "GDG Lisboa",
+    "profileImg": "assets/img/speakers/Filipe_Barroso.jpg",
+    "description": "Filipe Barroso, is a Software Engineer that loves getting out of his zone of comfort, if you don't see him at a tech event, he is probably organizing the next tech event by Google Developer Group Lisbon, reading about psychology or preparing the next bit of Standup comedy.  As a developer, He worked in android applications for Portugal Telecom now known as Altice, Brisa, Federação Portuguesa Futebol, TAP, Bayer among many others and currently he is working remotely as an Android Developer and Machine Learning Engineer.",
+    "socialNetwork": "https://twitter.com/ABarroso"
+  },
+  {
+    "name": "Carlos Mota",
+    "title": "Android, Kotlin",
+    "company": "WIT Software",
+    "profileImg": "assets/img/speakers/Carlos_Mota.jpg",
+    "description": "Hello human, I'm a strong believer that... HAL didn't do anything to harm Dave, he(?) was truly preoccupied with his friend safety. Also the answer to life, the universe and everything seems to (still) be 42.  At night I'm fighting crime... oh wait; wrong bio here. Here it goes the uncensensored version: for several years now, I've been developing mobile applications. First on the energy consumption field, then Telco and, in the middle, of it I've found the time to create a game with some friends - Word Dare - it was fun! I'm currently working at WIT Software on the company RCSe applications - first for iOS and now on Android.  From time to time, I like to make long monologues and wait for the entire audience to fall asleep - lets call them \"talks\". I've been giving a few for University of Coimbra, WIT Software, DevFest, Pixels Camp, mdevcon, etc.",
+    "socialNetwork": "https://twitter.com/ABarroso"
   }
 ]

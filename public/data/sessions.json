@@ -5,7 +5,18 @@
     "des": "As long as we’ve been using the internet, and way before that, we have been authenticating through some sort of username and password combination. It has become the standard. With the ever increasing number of web-apps, we’re seeing more and more data breaches as well. What if we could build our authentication processes in a way the user doesn’t need a password? In this talk I will give a quick overview of the past, present and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details, but aims to give a view of what’s to come in terms of authentication."
   },
   {
-    "title": "Coming soon",
-    "des": ""
+    "title": "What the Flutter?",
+    "speaker": "Filipe Barroso",
+    "des": "Flutter, the new Open Source mobile application SDK to create native applications in one codebase. What is Flutter and why should you care about it? At the end of the talk, you will understand the decisions behind Flutter, why it is so different from others mobile development tools and platforms and why is so many developers already addicted to it. I will also showcase how to build a small working app and how structure a project."
+  },
+  {
+    "title": "Doing Open Source as a contributor and a maintainer",
+    "speaker": "Isabel Costa",
+    "des": "When I was accepted into Google Summer of Code program, I was a total beginner at Open Source. I did some very small contributions but was still very intimidated by Open Source. I started the program as a student working on the project I proposed with the help of my mentors and community and after it ended I became a maintainer. As a contributor, I had to work on projects I didn’t know much as a maintainer I had to make sure the project was ready and friendly to outside contributors. In this talk, I want to share my learnings and perspective from working in Open Source being in both sides, while sharing some tips on how to start contributing to a new project and keeping a project beginner friendly."
+  },
+  {
+    "title": "Kotlin my way in",
+    "speaker": "Carlos Mota",
+    "des": "Developers, developers, developers.I’ve always thought that it is amazing what we do - we never settle, we always try to figure out new things, test new things and improve the ones on which we work daily; whether it’s a newly found library, a new architecture pattern that suddenly started to be trending or in this particular case a new language called Kotlin - rejoice! However those things have different impacts on our projects - using a new library has a different risk than adopting a new language and this is where things get… or as you will hear got really complicated. For the past years I’ve been trying to evangelise - wololooo - [read this with Age Of Empires priests voice] the people at my company and community into taking the step of gradually start using Kotlin on our applications. And it hasn’t been an easy task. First, not everyone shares the same enthusiasm in learning something new and secondly making the shift of leaving a language which they know and are familiar with to a new one requires time (both for companies and for people). Fast forward to the present and currently we have Kotlin code in production, a team thrilled with learning new things and managers glad that all deadlines have been successfully accomplished. This will be a non-technological talk, where I’m going to share all the steps made  (the good and… not so good ones) since I first started to push Kotlin until we have an application ready for production powered by it. Hopefully, without making you fall asleep."
   }
 ]
