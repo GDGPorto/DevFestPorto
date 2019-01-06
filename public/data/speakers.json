@@ -1,6 +1,6 @@
 [
   {
-    "name": "Panayotis Tzinis - GDE",
+    "name": "Panayotis Tzinis",
     "title": "GDE",
     "company": "X-Lab",
     "profileImg": "assets/img/speakers/Panayotis_Tzinis.jpg",
@@ -9,13 +9,14 @@
   },
   {
     "name": "Inês Santos Silva",
+    "title": "PWIT",
     "company": "Portuguese Women in Tech",
     "profileImg": "assets/img/speakers/Ines_Santos.jpg",
     "description": "Inês Silva is a co-founder at Portuguese Women in Tech and a Managing Partner at Aliados, an impact driven consulting firm working with public and private organisations to solve some of their biggest social and environmental challenges.",
     "socialNetwork": "https://www.linkedin.com/in/inessantossilva"
   },
   {
-    "name": "Sam Bellen - GDE",
+    "name": "Sam Bellen",
     "title": "GDE",
     "company": "Auth0",
     "profileImg": "assets/img/speakers/Sam_Bellen.png",

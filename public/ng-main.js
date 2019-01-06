@@ -166,6 +166,13 @@ app.controller('regCtrl',function($scope,$http){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 
+    fetch('data/patners.json')
+    .then(res=>res.json())
+    .then(data => {
+        $scope.patData = data;
+            digest($scope);
+    })
+
     var reggJsonData = $http.get('data/registration.json');
 
     fetch('data/registration.json')

@@ -70,8 +70,18 @@
                 "icon" : "fa-microphone"
             },
             {
-                "quantity" : "8+",
+                "quantity" : "12+",
                 "title" : "Speakers",
+                "icon" : "fa-american-sign-language-interpreting"
+            },
+            {
+                "quantity" : "3",
+                "title" : "Workshops",
+                "icon" : "fa-american-sign-language-interpreting"
+            },
+            {
+                "quantity" : "∞",
+                "title" : "Connections",
                 "icon" : "fa-american-sign-language-interpreting"
             }
         ]

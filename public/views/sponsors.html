@@ -4,7 +4,9 @@
         <p>{{patData.description}}</p>
     </div>
     <div class="col-md-6 offset-md-3 mt-2">
-        <h4 style="font-family: google-sans;">Partners</h4>
+        <div class="col-md-8">
+            <h4 style="font-family: google-sans;">Partners</h4>
+        </div>
         <div class="row container-fluid">
             <div class="col-4 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
                  ng-if="pd.sponsorType == 'partner'">
@@ -17,7 +19,9 @@
             </div>
         </div>
         <br>
-        <h4 style="font-family: google-sans;">Gold Sponsors</h4>
+        <div class="col-md-8">
+            <h4 style="font-family: google-sans;">Gold Sponsors</h4>
+        </div>
         <div class="row container-fluid">
             <div class="col-4 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
                  ng-if="pd.sponsorType == 'gold'">
@@ -29,7 +33,9 @@
             </div>
         </div>
         <br>
-        <h4 style="font-family: google-sans;">Silver Sponsors</h4>
+        <div class="col-md-8">
+            <h4 style="font-family: google-sans;">Silver Sponsors</h4>
+        </div>
         <div class="row container-fluid">
             <div class="col-3 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
                  ng-if="pd.sponsorType == 'silver'">
@@ -41,7 +47,9 @@
             </div>
         </div>
         <br>
-        <h4 style="font-family: google-sans;">Bronze Sponsors</h4>
+        <div class="col-md-8">
+            <h4 style="font-family: google-sans;">Bronze Sponsors</h4>
+        </div>
         <div class="row container-fluid">
             <div class="col-3 text-center mt-2 ng-scope" ng-repeat="pd in patData.partnersName"
                  ng-if="pd.sponsorType == 'bronze'">
