@@ -5,6 +5,11 @@
     "des": "As long as we’ve been using the internet, and way before that, we have been authenticating through some sort of username and password combination. It has become the standard. With the ever increasing number of web-apps, we’re seeing more and more data breaches as well. What if we could build our authentication processes in a way the user doesn’t need a password? In this talk I will give a quick overview of the past, present and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details, but aims to give a view of what’s to come in terms of authentication."
   },
   {
+    "title": "I have 99 problems but GraphQL is not one!",
+    "speaker" : "Sara Vieira",
+    "des": "You have probably heard about GraphQL and probably heard people say it’s amazing but never understood why you should learn yet another thing. In this talk we will go over just why everyone seems to love this new kid on the block, how to get started with it and debunk some myths about GraphQL. The objective is that you leave this talk as excited as me about GraphQL."
+  },
+  {
     "title": "What the Flutter?",
     "speaker": "Filipe Barroso",
     "des": "Flutter, the new Open Source mobile application SDK to create native applications in one codebase. What is Flutter and why should you care about it? At the end of the talk, you will understand the decisions behind Flutter, why it is so different from others mobile development tools and platforms and why is so many developers already addicted to it. I will also showcase how to build a small working app and how structure a project."
@@ -18,5 +23,10 @@
     "title": "Kotlin my way in",
     "speaker": "Carlos Mota",
     "des": "Developers, developers, developers.I’ve always thought that it is amazing what we do - we never settle, we always try to figure out new things, test new things and improve the ones on which we work daily; whether it’s a newly found library, a new architecture pattern that suddenly started to be trending or in this particular case a new language called Kotlin - rejoice! However those things have different impacts on our projects - using a new library has a different risk than adopting a new language and this is where things get… or as you will hear got really complicated. For the past years I’ve been trying to evangelise - wololooo - [read this with Age Of Empires priests voice] the people at my company and community into taking the step of gradually start using Kotlin on our applications. And it hasn’t been an easy task. First, not everyone shares the same enthusiasm in learning something new and secondly making the shift of leaving a language which they know and are familiar with to a new one requires time (both for companies and for people). Fast forward to the present and currently we have Kotlin code in production, a team thrilled with learning new things and managers glad that all deadlines have been successfully accomplished. This will be a non-technological talk, where I’m going to share all the steps made  (the good and… not so good ones) since I first started to push Kotlin until we have an application ready for production powered by it. Hopefully, without making you fall asleep."
+  },
+  {
+    "title": "Designing in the Age of Machines",
+    "speaker" : "Panayotis Tzinis",
+    "des": "We will have an intro on designing and researching on-device machine learning product and what it means in practice to take a human-centered approach to designing an AI-powered product + a few takeovers"
   }
 ]

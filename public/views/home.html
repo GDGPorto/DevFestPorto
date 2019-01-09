@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-5 text-center mt-4" ng-repeat="sp in speakersData" ng-click="open(sp)">
+                    <div class="col-md-3 col-4 text-center mt-3" ng-repeat="sp in speakersData | limitTo : 4" ng-click="open(sp)">
                         <a style=" color:inherit;text-decoration: none;" href="#speakers">
                             <div ng-include src="'views/container/speakerContainer.html'"></div>
                         </a>
