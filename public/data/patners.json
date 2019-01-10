@@ -25,11 +25,25 @@
       "sponsorType": "partner"
     },
     {
+      "name": "Porto TechHub",
+      "URL": "https://portotechhub.com",
+      "PartnerImg": "assets/img/patners/porto_techhub.png",
+      "width": "160h",
+      "sponsorType": "partner"
+    },
+    {
       "name": "Portuguese Women in Tech",
       "id" : "PWIT",
       "URL": "http://www.portuguesewomenintech.com/",
       "PartnerImg": "assets/img/patners/PWIT.jpg",
       "width": "160h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "Transferwise",
+      "URL": "http://www.transferwise.com/",
+      "PartnerImg": "assets/img/patners/transferwise.png",
+      "width": "260h",
       "sponsorType": "partner"
     },
     {
