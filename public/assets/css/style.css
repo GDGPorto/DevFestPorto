@@ -55,14 +55,19 @@
     justify-content: center;
 }
 
-.box {
+.speaker-card {
     transition: box-shadow .3s;
     border-radius:10px;
     border: 1px solid #ccc;
+    margin: 1.5rem;
 }
 
-.box:hover {
+.speaker-card:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.speaker-container {
+    padding: 25px;
 }
 
 /* Css for Loading */
