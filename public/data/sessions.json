@@ -79,7 +79,7 @@
   {
     "id":11,
     "title": "Modularisation: what could go wrong?",
-    "speaker" : "Pedro Machado/Mostafa Hanafy",
+    "speaker" : "Pedro Machado & Mostafa Hanafy",
     "speakerIds" : [13,14],
     "des": "Android projects can be difficult to maintain, especially when the team is fairly big or when there's little to no upfront planning. Complexity will increase and, if not cared for, so will technical debt and compilation times. Though having separate modules might seem like the obvious approach when starting a project, that's not how it always plays out, therefore modularisation may be a nearing challenge for an increasing number of projects. Modularisation is not without some complicated challenges that will make you question is usefulness. In this talk we'll document our initial approach to modularising XING's Android project, the challenges we faced and what we hope to achieve. Hopefully it will help you think about what your project needs and motivate you into solving some of the problems you might be facing everyday."
   },

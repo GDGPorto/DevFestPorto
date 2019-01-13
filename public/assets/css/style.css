@@ -23,6 +23,13 @@
     to   { opacity: 0;}
 }
 
+.p-3{
+    padding: 0 !important;
+}
+.p-3margins{
+    padding: 16px !important;
+}
+
 .img-grey{
     filter: gray; /* IE5+ */
     -webkit-filter: grayscale(1);
@@ -77,6 +84,17 @@
 .schedule-entry-line{
     border-left: 1px solid #dee2e6;
 }
+.schedule-entry-line-intern{
+    padding: 7px;
+    display: flex;
+    cursor: pointer;
+}
+.schedule-entry-line-intern:hover{
+    background-color: #bec2c6;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
 .schedule-entry-main{
     margin: auto;
     font-size: 18px;
@@ -85,6 +103,13 @@
     margin: 5px 0;
     text-align: left;
 }
+.clickable-text:hover{
+    font-weight: bold;
+}
+.clickable-img:hover{
+    border: 1px grey solid;
+}
+
 .table td{
     vertical-align: middle;
 }

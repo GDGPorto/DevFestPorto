@@ -1,0 +1,38 @@
+<div>
+    <div class="modal-header">
+        <div class="row">
+            <div class="col-md-4 col-4 text-center">
+                <img ng-if="schedule.speaker" src="{{schedule.speaker.profileImg}}" class="rounded-circle" alt="Speaker Image" width="60%"/>
+
+                <img ng-if="schedule.speakers"  ng-click="open(speaker)" ng-repeat="speaker in schedule.speakers" src="{{speaker.profileImg}}" class="rounded-circle"
+                     alt="Speaker Image" style="min-width: 35px; width: 35px; height: 35px; margin: auto 5px"/>
+
+                <h3 class="modal-title text-center" style="color: #1a73e8;text-align: center;font-size: 14px;">
+                    {{schedule.session.speaker}}
+                </h3>
+            </div>
+            <div class="col">
+                <div>
+                    <h4 class="modal-title text-center" style="color: #1a73e8;text-align: center;font-size: 28px;font-weight: 400;">
+                        Session details
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="modal-title text-center" style="color: #1a73e8;text-align: center;">
+                        {{schedule.session.title}}
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="close" ng-click="onClosePopup()" aria-label="Close">
+            <i class="fa fa-times"></i>
+        </div>
+    </div>
+
+    <div class="modal-body container-fluid">
+        <div class="text-center">
+            <span style="font-family: google-sans">{{schedule.session.des}}</span>
+        </div>
+    </div>
+
+</div>

@@ -68,11 +68,20 @@ app.controller('speakersCtrl',function($scope, $modal){
             }
         });
     }
-})
+});
 
 app.controller('SpeakersDetailPopupCtrl', function ($scope, $modalInstance, speaker) {
     
     $scope.speaker = speaker;
+
+    $scope.onClosePopup = function () {
+        $modalInstance.close();
+    };
+});
+
+app.controller('ScheduleDetailPopupCtrl', function ($scope, $modalInstance, schedule) {
+
+    $scope.schedule = schedule;
 
     $scope.onClosePopup = function () {
         $modalInstance.close();
@@ -170,10 +179,14 @@ app.controller('sessionsCtrl',function($scope, $modal){
     };
 
 
-    $scope.open = function (sp) {
-        if (!sp){
-            return;
-        }
+        $scope.open = function (sp) {
+            if (!sp){
+                return;
+            }
+            if (event){
+                event.preventDefault();
+                event.stopPropagation();
+            }
         var modalInstance = $modal.open({
             keyboard: false,
             windowClass: 'show',
@@ -182,6 +195,26 @@ app.controller('sessionsCtrl',function($scope, $modal){
             resolve: {
                 speaker: function () {
                     return sp;
+                }
+            }
+        });
+    };
+    $scope.openSchedule = function (schedule) {
+        if (!schedule){
+            return;
+        }
+        if (event){
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        var modalInstance = $modal.open({
+            keyboard: false,
+            windowClass: 'show',
+            templateUrl: "views/popup/schedulePopup.html",
+            controller: "ScheduleDetailPopupCtrl",
+            resolve: {
+                schedule: function () {
+                    return schedule;
                 }
             }
         });

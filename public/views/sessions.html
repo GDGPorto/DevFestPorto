@@ -40,7 +40,7 @@
                         <p style="font-family: google-sans" class="animated fadeInUp">Get inspired. Learn. Use it.</p>
 
                         <p style="font-family: google-sans" class="animated fadeInUp">Check back often as we continue to
-                            add new sessions.</p>
+                            add new sessions. Please note that the order of the talks and the schedule may still change.</p>
                     </div>
                 </div>
 
@@ -80,15 +80,16 @@
                     <div class="col-md-12">
                         <table class="table table-hover animated fadeInUp" style="width: 100%;border-color:#e0e0e0;">
                             <tr class="primary-color text-white">
-                                <td class="p-3" style="width: 20%;text-align: center;">
+                                <td class="p-3 p-3margins" style="width: 20%;text-align: center;">
                                     <p style="text-align: center;" class="google-font mb-0">Time</p>
                                 </td>
-                                <td class="p-3" style="width: 40%;text-align: center;" ng-repeat="td in trackData"  >
+                                <td class="p-3 p-3margins" style="width: 40%;text-align: center;" ng-repeat="td in trackData"  >
                                     <p class="google-font mb-0">{{td.title}}</p>
                                 </td>
                             </tr>
                             <tr ng-repeat="sd in schData | filter: search">
-                                <td class="p-3" ><p style="text-align: center;" class="google-font">{{sd.time}}</p></td>
+                                <td class="p-3" >
+                                    <div class="google-font p-3margins" style="text-align: center;" class="google-font">{{sd.time}}</div></td>
                                 <td class="p-3 schedule-entry-line" ng-if="sd.detail" colspan="2">
 
                                     <div style=" display: flex; margin: auto" class="google-font">
@@ -98,21 +99,23 @@
                                 </td>
                                 <td class="p-3 schedule-entry-line"
                                     ng-init="sE = getScheduleEntry(td.id,sd.sessions)"
-                                    ng-if="!sd.detail && !isSpanned(td.id,sd.sessions)"  ng-repeat="td in trackData" rowspan="{{sE.span}}">
+                                    ng-click="openSchedule(sE)"
+                                    ng-if="!sd.detail && !isSpanned(td.id,sd.sessions)"
+                                    ng-repeat="td in trackData" rowspan="{{sE.span}}">
 
-                                    <div ng-if="sE" style="display: flex" >
-                                        <div style=" cursor: pointer; display: flex; margin: auto"
-                                             ng-click="open(sE.speaker)" class="google-font">
+                                    <div ng-if="sE" class="schedule-entry-line-intern" >
+                                        <div style="display: flex; margin: auto"
+                                              class="google-font">
 
-                                            <img ng-if="sE.speaker" src="{{sE.speaker.profileImg}}" class="rounded-circle"
+                                            <img ng-if="sE.speaker" ng-click="open(sE.speaker)" src="{{sE.speaker.profileImg}}" class="rounded-circle clickable-img"
                                                  alt="Speaker Image" style="min-width: 55px; width: 55px; height: 55px; margin: auto 10px"/>
 
-                                            <img ng-if="sE.speakers"  ng-click="open(speaker)" ng-repeat="speaker in sE.speakers" src="{{speaker.profileImg}}" class="rounded-circle"
+                                            <img ng-if="sE.speakers"  ng-click="open(speaker)" ng-repeat="speaker in sE.speakers" src="{{speaker.profileImg}}" class="rounded-circle clickable-img"
                                                  alt="Speaker Image" style="min-width: 35px; width: 35px; height: 35px; margin: auto 5px"/>
 
                                             <div style="flex-grow: 1">
-                                                <div class="schedule-entry-text google-font">{{sE.session.speaker}}</div>
-                                                <div class="schedule-entry-text google-font">{{sE.session.title}}</div>
+                                                <div ng-click="open(sE.speaker)" class="clickable-text schedule-entry-text google-font">{{sE.session.speaker}}</div>
+                                                <div class=" schedule-entry-text google-font">{{sE.session.title}}</div>
                                             </div>
                                         </div>
                                     </div>
