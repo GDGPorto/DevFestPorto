@@ -114,6 +114,7 @@
                                                  alt="Speaker Image" style="min-width: 35px; width: 35px; height: 35px; margin: auto 5px"/>
 
                                             <div style="flex-grow: 1">
+                                                <div ng-if="sE.session.workshop" style="font-weight: bold;color: #4285f4;" class="schedule-entry-text google-font">[Workshop - Bring your laptop]</div>
                                                 <div ng-click="open(sE.speaker)" class="clickable-text schedule-entry-text google-font">{{sE.session.speaker}}</div>
                                                 <div class=" schedule-entry-text google-font">{{sE.session.title}}</div>
                                             </div>

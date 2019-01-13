@@ -102,6 +102,7 @@
     "title": "Designing for wicked problems",
     "speaker" : "Panayotis Tzinis",
     "speakerId" : 1,
+    "workshop" : true,
     "des": "Throughout, hopefully if time allows us, 3 Lab exercises we will intro \"wicked problems\", what are they, how to address them and how to \"try\" to solve them without creating others! That's wicked! At each Lab Exercise attendees will do some hands-on design/sketching, discussion and ideation."
   },
   {
@@ -109,6 +110,7 @@
     "title": "To be announced soon",
     "speaker" : "Filipe Barroso",
     "speakerId" : 5,
+    "workshop" : true,
     "des": "To be announced soon"
   },
   {
