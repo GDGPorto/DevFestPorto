@@ -72,6 +72,21 @@
 
 .speaker-container {
     padding: 25px;
+    cursor: pointer;
+}
+.schedule-entry-line{
+    border-left: 1px solid #dee2e6;
+}
+.schedule-entry-main{
+    margin: auto;
+    font-size: 18px;
+}
+.schedule-entry-text{
+    margin: 5px 0;
+    text-align: left;
+}
+.table td{
+    vertical-align: middle;
 }
 
 /* Css for Loading */

@@ -37,25 +37,23 @@ var app = angular.module('gdgapp',['ngRoute','ngAnimate', 'ui.bootstrap']).
                 });
             
 
-app.controller('speakersCtrl',function($scope, $http, $modal){
+app.controller('speakersCtrl',function($scope, $modal){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-
-    var spd = $http.get('data/speakers.json');
    
     fetch('data/speakers.json')
     .then(res=>res.json())
     .then(data => {
         $scope.speakersData = data;
             digest($scope);
-    })
+    });
 
     fetch('data/patners.json')
     .then(res=>res.json())
     .then(data => {
         $scope.patData = data;
             digest($scope);
-    })
+    });
 
     $scope.open = function (sp) {
         var modalInstance = $modal.open({
@@ -81,27 +79,114 @@ app.controller('SpeakersDetailPopupCtrl', function ($scope, $modalInstance, spea
     };
 });
 
-app.controller('sessionsCtrl',function($scope, $http){
+app.controller('sessionsCtrl',function($scope, $modal){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     fetch('data/sessions.json')
-    .then(res=>res.json())
-    .then(data => {
-        $scope.sessionsData = data;
+        .then(res=>res.json())
+        .then(data => {
+            $scope.sessionsData = data;
             digest($scope);
-    })
+        });
+
+    fetch('data/speakers.json')
+        .then(res=>res.json())
+        .then(data => {
+            $scope.speakersData = data;
+            digest($scope);
+        });
 
     fetch('data/patners.json')
-    .then(res=>res.json())
-    .then(data => {
-        $scope.patData = data;
+        .then(res=>res.json())
+        .then(data => {
+            $scope.patData = data;
             digest($scope);
-    })
-    
-    $scope.varSessions = true;
-    $scope.varSchedule = false;
+        });
 
-    $scope.showSession = function(){
+    fetch('data/tracks.json')
+        .then(res=>res.json())
+        .then(data => {
+            $scope.trackData = data;
+            digest($scope);
+        });
+
+    $scope.varSessions = false;
+    $scope.varSchedule = true;
+
+    $scope.getScheduleEntry= function(trackId, sessionObjects) {
+        if (sessionObjects && $scope.speakersData && $scope.sessionsData) {
+            for (var i = 0; i < sessionObjects.length; i++) {
+                var sessionObj = sessionObjects[i];
+                if (sessionObj.track === trackId) {
+
+                    if (sessionObj.session){
+                        // already enriched
+                        return sessionObj;
+                    }
+                    sessionObj.session = $scope.getSessionById(sessionObj.sessionId);
+                    if (sessionObj.session.speakerIds){
+                        sessionObj.speakers = [];
+                        for (var j = 0; j < sessionObj.session.speakerIds.length; j++) {
+                            var speakerId = sessionObj.session.speakerIds[j];
+                            sessionObj.speakers.push($scope.getSpeakerById(speakerId));
+                        }
+                    }else {
+                        sessionObj.speaker = $scope.getSpeakerById(sessionObj.session.speakerId);
+                    }
+                    return sessionObj;
+                }
+            }
+        }
+    };
+
+    $scope.isSpanned= function(trackId, sessionObjects) {
+        if (sessionObjects && $scope.speakersData && $scope.sessionsData) {
+            for (var i = 0; i < sessionObjects.length; i++) {
+                var sessionObj = sessionObjects[i];
+                if (sessionObj.track === trackId) {
+                    return sessionObj.spanned;
+                }
+            }
+        }
+        return false;
+    };
+
+    $scope.getSessionById = function(sessionId){
+        for (var i = 0; i < $scope.sessionsData.length; i++) {
+            var session = $scope.sessionsData[i];
+            if (session.id === sessionId){
+                return session;
+            }
+        }
+    };
+
+    $scope.getSpeakerById = function(speakerId){
+        for (var i = 0; i < $scope.speakersData.length; i++) {
+            var speaker = $scope.speakersData[i];
+            if (speaker.id === speakerId){
+                return speaker;
+            }
+        }
+    };
+
+
+    $scope.open = function (sp) {
+        if (!sp){
+            return;
+        }
+        var modalInstance = $modal.open({
+            keyboard: false,
+            windowClass: 'show',
+            templateUrl: "views/popup/speakersPopup.html",
+            controller: "SpeakersDetailPopupCtrl",
+            resolve: {
+                speaker: function () {
+                    return sp;
+                }
+            }
+        });
+    };
+        $scope.showSession = function(){
         $scope.varSessions = true;
         $scope.varSchedule = false;
 
@@ -129,7 +214,7 @@ app.controller('sessionsCtrl',function($scope, $http){
 
 })
 
-app.controller('homeCtrl',function($scope,$http){
+app.controller('homeCtrl',function($scope){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 

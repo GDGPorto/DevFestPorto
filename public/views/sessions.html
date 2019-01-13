@@ -16,12 +16,12 @@
     <div class="row p-2 p-0">
         <div class="col-md-10 offset-md-1 pl-1">
             <ul class="nav md-tabs mx-0 mb-0 mt-1 mb-1 p-0">
-                <li class="nav-item active-bar" id="showSessionID">
+                <li class="nav-item active-bar" id="showScheduleID" >
+                    <a class="nav-link google-font" ng-click="showSchedule()" ><b>Schedule</b></a>
+                </li>
+                <li class="nav-item inactive-bar" id="showSessionID">
                     <a class="nav-link google-font" ng-click="showSession()"><b>Sessions</b></a>
                 </li>
-                <!-- <li class="nav-item inactive-bar" id="showScheduleID" >
-                    <a class="nav-link google-font" ng-click="showSchedule()" ><b>Schedule</b></a>
-                </li> -->
             </ul>
         </div>
     </div>
@@ -62,8 +62,7 @@
                         <h3 style="font-family: google-sans;color: #1a73e8;" class="animated fadeInUp">Schedule</h3>
                         <br>
                         <p style="font-family: google-sans" class="animated fadeInUp">Hone your skills. Ask technical
-                            questions. Get inspired. This year’s program is packed with breakouts, keynotes, spotlights,
-                            panels, and bootcamps.</p>
+                            questions. Get inspired. This year’s program is packed with keynotes, talks and workshops.</p>
 
                         <p style="font-family: google-sans" class="animated fadeInUp">Check back often as we continue to
                             add new sessions.</p>
@@ -73,7 +72,6 @@
                             <input type="text" id="materialLoginFormEmail" class="form-control" ng-model="search">
                             <label for="materialLoginFormEmail"><i class="fa fa-search" aria-hidden="true"></i> Search
                                 inside Schedule</label>
-                            <small>All times are Indian Standard Time (UTC+05:30)</small>
                         </div>
                     </div>
                 </div>
@@ -82,16 +80,44 @@
                     <div class="col-md-12">
                         <table class="table table-hover animated fadeInUp" style="width: 100%;border-color:#e0e0e0;">
                             <tr class="primary-color text-white">
-                                <td class="p-3" style="width: 20%">
-                                    <p class="google-font mb-0">Timing</p>
+                                <td class="p-3" style="width: 20%;text-align: center;">
+                                    <p style="text-align: center;" class="google-font mb-0">Time</p>
                                 </td>
-                                <td class="p-3" style="width: 20%">
-                                    <p class="google-font mb-0">Sessions Name</p>
+                                <td class="p-3" style="width: 40%;text-align: center;" ng-repeat="td in trackData"  >
+                                    <p class="google-font mb-0">{{td.title}}</p>
                                 </td>
                             </tr>
                             <tr ng-repeat="sd in schData | filter: search">
-                                <td class="p-3" style="width: 20%;"><p class="google-font">{{sd.time}}</p></td>
-                                <td class="p-3" style="width: 80%;"><p class="google-font">{{sd.detail}}</p></td>
+                                <td class="p-3" ><p style="text-align: center;" class="google-font">{{sd.time}}</p></td>
+                                <td class="p-3 schedule-entry-line" ng-if="sd.detail" colspan="2">
+
+                                    <div style=" display: flex; margin: auto" class="google-font">
+                                        <div  class="schedule-entry-main google-font">{{sd.detail}}</div>
+                                    </div>
+
+                                </td>
+                                <td class="p-3 schedule-entry-line"
+                                    ng-init="sE = getScheduleEntry(td.id,sd.sessions)"
+                                    ng-if="!sd.detail && !isSpanned(td.id,sd.sessions)"  ng-repeat="td in trackData" rowspan="{{sE.span}}">
+
+                                    <div ng-if="sE" style="display: flex" >
+                                        <div style=" cursor: pointer; display: flex; margin: auto"
+                                             ng-click="open(sE.speaker)" class="google-font">
+
+                                            <img ng-if="sE.speaker" src="{{sE.speaker.profileImg}}" class="rounded-circle"
+                                                 alt="Speaker Image" style="min-width: 55px; width: 55px; height: 55px; margin: auto 10px"/>
+
+                                            <img ng-if="sE.speakers"  ng-click="open(speaker)" ng-repeat="speaker in sE.speakers" src="{{speaker.profileImg}}" class="rounded-circle"
+                                                 alt="Speaker Image" style="min-width: 35px; width: 35px; height: 35px; margin: auto 5px"/>
+
+                                            <div style="flex-grow: 1">
+                                                <div class="schedule-entry-text google-font">{{sE.session.speaker}}</div>
+                                                <div class="schedule-entry-text google-font">{{sE.session.title}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </td>
                             </tr>
                         </table>
                     </div>

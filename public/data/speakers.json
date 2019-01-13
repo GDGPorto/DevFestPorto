@@ -1,5 +1,6 @@
 [
   {
+    "id":1,
     "name": "Panayotis Tzinis",
     "title": "GDE, Design",
     "company": "X-Lab",
@@ -8,6 +9,7 @@
     "socialNetwork": "https://twitter.com/ptzinis"
   },
   {
+    "id":2,
     "name": "Sara Viera",
     "title": "GraphQL",
     "company": "YLD",
@@ -16,6 +18,7 @@
     "socialNetwork": "https://twitter.com/NikkitaFTW"
   },
   {
+    "id":3,
     "name": "Sam Bellen",
     "title": "GDE, Security",
     "company": "Auth0",
@@ -24,6 +27,7 @@
     "socialNetwork": "https://twitter.com/sambego"
   },
   {
+    "id":0,
     "name": "Inês Santos Silva",
     "title": "PWIT",
     "company": "Portuguese Women in Tech",
@@ -32,6 +36,7 @@
     "socialNetwork": "https://www.linkedin.com/in/inessantossilva"
   },
   {
+    "id":4,
     "name": "Isabel Costa",
     "title": "Open Source, Android",
     "company": "Grupo Imprensa",
@@ -40,6 +45,7 @@
     "socialNetwork": "https://twitter.com/isabelcmdcosta"
   },
   {
+    "id":5,
     "name": "Filipe Barroso",
     "title": "Flutter, Tensorflow",
     "company": "GDG Lisboa",
@@ -49,11 +55,83 @@
   },
 
   {
+    "id":6,
     "name": "Carlos Mota",
     "title": "Android, Kotlin",
     "company": "WIT Software",
     "profileImg": "assets/img/speakers/Carlos_Mota.jpg",
     "description": "Hello human, I'm a strong believer that... HAL didn't do anything to harm Dave, he(?) was truly preoccupied with his friend safety. Also the answer to life, the universe and everything seems to (still) be 42.  At night I'm fighting crime... oh wait; wrong bio here. Here it goes the uncensensored version: for several years now, I've been developing mobile applications. First on the energy consumption field, then Telco and, in the middle, of it I've found the time to create a game with some friends - Word Dare - it was fun! I'm currently working at WIT Software on the company RCSe applications - first for iOS and now on Android.  From time to time, I like to make long monologues and wait for the entire audience to fall asleep - lets call them \"talks\". I've been giving a few for University of Coimbra, WIT Software, DevFest, Pixels Camp, mdevcon, etc.",
     "socialNetwork": "https://twitter.com/ABarroso"
+  },
+
+  {
+    "id":7,
+    "name": "Daniel Mallcott",
+    "title": "",
+    "company": "TransferWise",
+    "profileImg": "assets/img/speakers/Daniel_Mallcott.jpg",
+    "description": "Daniel is an android engineer at TransferWise, coming all the way from Venezuela to build a career in the tech world. Today he’s working alongside fourteen other android nerds towards causing a positive impact in fintech, one user at a time. He likes taking long walks down the beach, fighting for diversity and building beautiful products. If you see him around say hi, his favourite hobby is making friends.",
+    "socialNetwork": "https://twitter.com/danielmallcott"
+  },
+
+  {
+    "id":8,
+    "name": "João Reis",
+    "title": "Android",
+    "company": "ebankIt",
+    "profileImg": "assets/img/speakers/avatar.png",
+    "description": "João Reis has been developing Android applications since 2014 and is currently a Senior Android Developer at eBankIT. A Kotlin enthusiast and passionate about software architecture he has worked in projects from hospitality applications to Telco and currently Fintech. João is also a music lover and metalhead by heart he never misses a chance to catch a concert"
+  },
+
+  {
+    "id":9,
+    "name": "João Teixeira",
+    "title": "Design",
+    "company": "WIT Software",
+    "profileImg": "assets/img/speakers/avatar.png",
+    "description": "Design Manager at WIT Software. Digital design nerd, UX tinkerer, Product Design addict, 3D junkie and code monkey wannabe. Into obscure pop culture references, hygge and early Schwarzenegger movies."
+  },
+  {
+    "id":10,
+    "name": "Isabel Costa",
+    "title": "Open Source",
+    "company": "Grupo Impresa",
+    "profileImg": "assets/img/speakers/Isabel_Costa.png",
+    "description": "Isabel is a Software Developer at Grupo Impresa. She got into Open Source through Google Summer of Code (GSoC) program in 2018. During her time as a GSoC student, she started a project with Systers Open Source community, using python for the backend and Kotlin for the Android application. She started as a student and now is one of the maintainers of the project, using it to help beginners at Open Source do their first contributions."
+  },
+  {
+    "id":12,
+    "name": "Alex Barlow",
+    "title": "Microservices",
+    "company": "Echo",
+    "profileImg": "assets/img/speakers/Alex_Barlow.jpg",
+    "description": "Principle Engineer for Echo, an online pharmacy sending thousands of patients their medications daily. Interested in service architecture and problems at scale",
+    "socialNetwork": "http://twitter.com/alexrbarlow"
+  },
+  {
+    "id":13,
+    "name": "Pedro Machado",
+    "title": "Android",
+    "company": "XING",
+    "profileImg": "assets/img/speakers/Pedro_Machado.jpg",
+    "description": "Pedro is a Software Engineer currently working on XING's Android app. He loves tearing stuff apart, just to put it back together again (this includes, but is not limited to the modularisation of Android projects). He has built solutions across the whole Android ecosystem, be it phones, watches, TVs, cars or even smart assistants. He's still waiting for the opportunity to create something for smart toasters or microwaves. It will eventually come along.",
+    "socialNetwork": "https://www.xing.com/profile/Pedro_Machado10"
+  },
+  {
+    "id":14,
+    "name": "Mostafa Hanafy",
+    "title": "Android",
+    "company": "XING",
+    "profileImg": "assets/img/speakers/Hanafy.jpg",
+    "description": "Mostafa is a Software Engineer working on the Android app for XING. He is passionate about developing software for limited resources devices. He likes to keep the code always clean in a way that makes him panic when he sees legacy code, but also beleives that a little bit of legacy code won't hurt till next chance to refactor it.",
+    "socialNetwork": "https://www.xing.com/profile/Mostafa_Hanafy"
+  },
+  {
+    "id":100,
+    "name": "To be announced soon",
+    "title": "To be announced soon",
+    "company": "To be announced soon",
+    "profileImg": "assets/img/speakers/avatar.png",
+    "description": "To be announced soon"
   }
 ]

@@ -1,32 +1,121 @@
 [
   {
+    "id":101,
+    "title": "Opening keynote",
+    "speaker" : "Inês Santos Silva",
+    "speakerId" : 0,
+    "des": "Opening Keynote by Inês Santos Silva"
+  },
+  {
+    "id":1,
     "title": "Passwords are so 1990",
     "speaker" : "Sam Bellen",
+    "speakerId" : 3,
     "des": "As long as we’ve been using the internet, and way before that, we have been authenticating through some sort of username and password combination. It has become the standard. With the ever increasing number of web-apps, we’re seeing more and more data breaches as well. What if we could build our authentication processes in a way the user doesn’t need a password? In this talk I will give a quick overview of the past, present and future of authentication. From basic authentication to passwordless biometric authentication using the web authentication API, and everything in between. The audience does not need any specific knowledge as this talk will not go into implementation details, but aims to give a view of what’s to come in terms of authentication."
   },
   {
+    "id":2,
     "title": "I have 99 problems but GraphQL is not one!",
     "speaker" : "Sara Vieira",
+    "speakerId" : 2,
     "des": "You have probably heard about GraphQL and probably heard people say it’s amazing but never understood why you should learn yet another thing. In this talk we will go over just why everyone seems to love this new kid on the block, how to get started with it and debunk some myths about GraphQL. The objective is that you leave this talk as excited as me about GraphQL."
   },
   {
+    "id":3,
     "title": "What the Flutter?",
     "speaker": "Filipe Barroso",
+    "speakerId" : 5,
     "des": "Flutter, the new Open Source mobile application SDK to create native applications in one codebase. What is Flutter and why should you care about it? At the end of the talk, you will understand the decisions behind Flutter, why it is so different from others mobile development tools and platforms and why is so many developers already addicted to it. I will also showcase how to build a small working app and how structure a project."
   },
   {
+    "id":4,
     "title": "Doing Open Source as a contributor and a maintainer",
     "speaker": "Isabel Costa",
+    "speakerId" : 4,
     "des": "When I was accepted into Google Summer of Code program, I was a total beginner at Open Source. I did some very small contributions but was still very intimidated by Open Source. I started the program as a student working on the project I proposed with the help of my mentors and community and after it ended I became a maintainer. As a contributor, I had to work on projects I didn’t know much as a maintainer I had to make sure the project was ready and friendly to outside contributors. In this talk, I want to share my learnings and perspective from working in Open Source being in both sides, while sharing some tips on how to start contributing to a new project and keeping a project beginner friendly."
   },
   {
+    "id":5,
     "title": "Kotlin my way in",
     "speaker": "Carlos Mota",
+    "speakerId" : 6,
     "des": "Developers, developers, developers.I’ve always thought that it is amazing what we do - we never settle, we always try to figure out new things, test new things and improve the ones on which we work daily; whether it’s a newly found library, a new architecture pattern that suddenly started to be trending or in this particular case a new language called Kotlin - rejoice! However those things have different impacts on our projects - using a new library has a different risk than adopting a new language and this is where things get… or as you will hear got really complicated. For the past years I’ve been trying to evangelise - wololooo - [read this with Age Of Empires priests voice] the people at my company and community into taking the step of gradually start using Kotlin on our applications. And it hasn’t been an easy task. First, not everyone shares the same enthusiasm in learning something new and secondly making the shift of leaving a language which they know and are familiar with to a new one requires time (both for companies and for people). Fast forward to the present and currently we have Kotlin code in production, a team thrilled with learning new things and managers glad that all deadlines have been successfully accomplished. This will be a non-technological talk, where I’m going to share all the steps made  (the good and… not so good ones) since I first started to push Kotlin until we have an application ready for production powered by it. Hopefully, without making you fall asleep."
   },
   {
+    "id":6,
     "title": "Designing in the Age of Machines",
     "speaker" : "Panayotis Tzinis",
+    "speakerId" : 1,
     "des": "We will have an intro on designing and researching on-device machine learning product and what it means in practice to take a human-centered approach to designing an AI-powered product + a few takeovers"
+  },
+  {
+    "id":7,
+    "title": "How well do you know your user?",
+    "speaker" : "Daniel Mallcott",
+    "speakerId" : 7,
+    "des": "One of my favourite things about building products is that we have the opportunity to improve others lives. Event if just a tiny bit. The thing is, do you really know who you’re helping?<br>Until recently, users where an abstract concept in my head. The user. After learning how to use Firebase, Google Analytics and other tools, I’ve learned how to turn that abstract into real. A user into a person.<br>In this talk we will explore how we use analytic streams to paint a picture of what our average user looks like. I’ll share some tips we’ve picked up over the years and how thinking in terms of people can level up your product."
+  },
+  {
+    "id":8,
+    "title": "To be announced soon",
+    "speaker" : "João Reis",
+    "speakerId" : 8,
+    "des": "To be announced soon"
+  },
+  {
+    "id":9,
+    "title": "To be announced soon",
+    "speaker" : "João Teixeira",
+    "speakerId" : 9,
+    "des": "To be announced soon"
+  },
+  {
+    "id":10,
+    "title": "Doing Open Source as a contributor and a maintainer",
+    "speaker" : "Isabel Costa",
+    "speakerId" : 10,
+    "des": "When I was accepted into Google Summer of Code program, I was a total beginner at Open Source. I did some very small contributions but was still very intimidated by Open Source. I started the program as a student working on the project I proposed with the help of my mentors and community and after it ended I became a maintainer. As a contributor, I had to work on projects I didn’t know much as a maintainer I had to make sure the project was ready and friendly to outside contributors. In this talk, I want to share my learnings and perspective from working in Open Source being in both sides, while sharing some tips on how to start contributing to a new project and keeping a project beginner friendly."
+  },
+  {
+    "id":11,
+    "title": "Modularisation: what could go wrong?",
+    "speaker" : "Pedro Machado/Mostafa Hanafy",
+    "speakerIds" : [13,14],
+    "des": "Android projects can be difficult to maintain, especially when the team is fairly big or when there's little to no upfront planning. Complexity will increase and, if not cared for, so will technical debt and compilation times. Though having separate modules might seem like the obvious approach when starting a project, that's not how it always plays out, therefore modularisation may be a nearing challenge for an increasing number of projects. Modularisation is not without some complicated challenges that will make you question is usefulness. In this talk we'll document our initial approach to modularising XING's Android project, the challenges we faced and what we hope to achieve. Hopefully it will help you think about what your project needs and motivate you into solving some of the problems you might be facing everyday."
+  },
+
+  {
+    "id":12,
+    "title": "Changing the wheels on a moving bus. Microservices in the real world.",
+    "speaker" : "Alex Barlow",
+    "speakerId" : 12,
+    "des": "Many talks are about the concepts of (micro) services and systems, either the benefits of how they are amazing (Netflix!), or how they're terrible (Rails). But few talks peel back the surface to talk about the day to day work of SOA in a small team and show concrete examples and working, live systems, what's hard about the them and the problems you overcome and what's great and include real details about the system.<br>In this talk, I'll be describing big issues we've had and the complexities of moving from what was basically a \"prototype\" startup written on Firebase, to a system with over 30 services shipping 1000s of packages a day. A migration that happened (mostly) without anyone noticing.<br>In particular, a brief overview of areas at Echo on Go / gRPC / Typescript / GraphQL (an entirely typed stack) and monitoring along with details of actual system designs."
+  },
+
+
+
+
+
+
+  {
+    "id":96,
+    "title": "Designing for wicked problems",
+    "speaker" : "Panayotis Tzinis",
+    "speakerId" : 1,
+    "des": "Throughout, hopefully if time allows us, 3 Lab exercises we will intro \"wicked problems\", what are they, how to address them and how to \"try\" to solve them without creating others! That's wicked! At each Lab Exercise attendees will do some hands-on design/sketching, discussion and ideation."
+  },
+  {
+    "id":93,
+    "title": "To be announced soon",
+    "speaker" : "Filipe Barroso",
+    "speakerId" : 5,
+    "des": "To be announced soon"
+  },
+  {
+    "id":100,
+    "title": "To be announced soon",
+    "speaker" : "To be announced soon",
+    "speakerId" : 100,
+    "des": "To be announced soon"
   }
 ]
