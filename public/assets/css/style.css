@@ -77,6 +77,13 @@
     padding: 25px;
     cursor: pointer;
 }
+
+
+@media (max-width: 576px) {
+    .speaker-container {
+        padding: 3px;
+    }
+}
 .schedule-entry-line{
     border-left: 1px solid #dee2e6;
     padding: 0 !important;
