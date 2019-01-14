@@ -23,11 +23,7 @@
     to   { opacity: 0;}
 }
 
-.p-3{
-    padding: 0 !important;
-}
 .p-3margins{
-    padding: 16px !important;
 }
 
 .img-grey{
@@ -83,6 +79,7 @@
 }
 .schedule-entry-line{
     border-left: 1px solid #dee2e6;
+    padding: 0 !important;
 }
 .schedule-entry-line-intern{
     padding: 7px;
@@ -153,5 +150,12 @@
     }
     40% {
         transform: scale(1);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .clickable-img {
+        display: none;
     }
 }
