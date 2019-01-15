@@ -8,7 +8,7 @@
                          style="background:#fafafa;border-radius: 2px;" class="mb-3">
                     <h5 style="font-family: google-sans;color: #1a73e8">{{sedt.speaker}}</h5>
                     <h5 style="font-family: google-sans;">{{sedt.title}}</h5>
-                    <p>{{sedt.des}}</p>
+                    <div ng-bind-html="sedt.desHtml"></div>
                 </div>
             </div>
         </div>

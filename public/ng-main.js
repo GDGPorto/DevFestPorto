@@ -88,7 +88,7 @@ app.controller('ScheduleDetailPopupCtrl', function ($scope, $modalInstance, sche
     };
 });
 
-app.controller('sessionsCtrl',function($scope, $modal){
+app.controller('sessionsCtrl',function($scope, $modal, $sce){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     fetch('data/sessions.json')
@@ -133,6 +133,9 @@ app.controller('sessionsCtrl',function($scope, $modal){
                         return sessionObj;
                     }
                     sessionObj.session = $scope.getSessionById(sessionObj.sessionId);
+                    if(!sessionObj.session.desHtml) {
+                        sessionObj.session.desHtml = $sce.trustAsHtml(sessionObj.session.des);
+                    }
                     if (sessionObj.session.speakerIds){
                         sessionObj.speakers = [];
                         for (var j = 0; j < sessionObj.session.speakerIds.length; j++) {

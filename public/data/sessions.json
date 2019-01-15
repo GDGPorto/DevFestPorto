@@ -107,11 +107,11 @@
   },
   {
     "id":93,
-    "title": "To be announced soon",
+    "title": "Flutter Kickoff",
     "speaker" : "Filipe Barroso",
     "speakerId" : 5,
     "workshop" : true,
-    "des": "To be announced soon"
+    "des": "Come in with a basic knowledge of what is get out with a working app on your smartphone.<br>This workshop is for curious and beginners with Flutter, we will be building an app from scratch while experimenting with various views.<br>Please bring your own laptop with Flutter install, follow this link for so: https://flutter.io/docs/get-started/install<br>Also have installed:<br>- Visual Studio Code ( with Flutter and Dart Plugins Installed)<br>- Git"
   },
   {
     "id":100,
