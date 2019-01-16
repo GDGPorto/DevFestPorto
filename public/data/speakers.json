@@ -127,6 +127,15 @@
     "socialNetwork": "https://www.xing.com/profile/Mostafa_Hanafy"
   },
   {
+    "id":15,
+    "name": "Rui Mendes",
+    "title": "Android",
+    "company": "Hostelworld",
+    "profileImg": "assets/img/speakers/Rui_Mendes.jpg",
+    "description": "5 years working with the Android platform and a tech enthusiast.<br>Most of his time is spent between beer, sports (mainly watching sports, not really practicing!) and a computer, with no particular order.<br><br>Likes to think he is a funny guy, but no one else seems to agree with him.",
+    "socialNetwork": "https://github.com/ruimendesM"
+  },
+  {
     "id":100,
     "name": "To be announced soon",
     "title": "To be announced soon",

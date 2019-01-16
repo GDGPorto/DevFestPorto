@@ -92,6 +92,14 @@
     "des": "Many talks are about the concepts of (micro) services and systems, either the benefits of how they are amazing (Netflix!), or how they're terrible (Rails). But few talks peel back the surface to talk about the day to day work of SOA in a small team and show concrete examples and working, live systems, what's hard about the them and the problems you overcome and what's great and include real details about the system.<br>In this talk, I'll be describing big issues we've had and the complexities of moving from what was basically a \"prototype\" startup written on Firebase, to a system with over 30 services shipping 1000s of packages a day. A migration that happened (mostly) without anyone noticing.<br>In particular, a brief overview of areas at Echo on Go / gRPC / Typescript / GraphQL (an entirely typed stack) and monitoring along with details of actual system designs."
   },
 
+  {
+    "id":13,
+    "title": "Actions for Google Assistant: How easily can you build your own assistant?",
+    "speaker" : "Rui Mendes",
+    "speakerId" : 15,
+    "des": "Have you ever wondered how you could build your own Assistant?<br>In this talk I will guide you on the process of creating a simple assistant.<br>DialogFlow will be our NLP (Natural Language Processor), Firebase Cloud Functions will be used to process the commands and you will even see how you could integrate it with your own Android App.<br>Exciting stuff!"
+  },
+
 
 
 

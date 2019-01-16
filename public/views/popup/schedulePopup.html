@@ -30,8 +30,8 @@
     </div>
 
     <div class="modal-body container-fluid">
-        <div class="text-center">
-            <div style="font-family: google-sans" ng-bind-html="schedule.session.desHtml"></div>
+        <div >
+            <div style="font-family: google-sans" ng-bind-html="schedule.session.des | sanitize"></div>
         </div>
     </div>
 

@@ -70,6 +70,12 @@ app.controller('speakersCtrl',function($scope, $modal){
     }
 });
 
+app.filter("sanitize", ['$sce', function($sce) {
+    return function(htmlCode){
+        return $sce.trustAsHtml(htmlCode);
+    }
+}]);
+
 app.controller('SpeakersDetailPopupCtrl', function ($scope, $modalInstance, speaker) {
     
     $scope.speaker = speaker;
@@ -133,9 +139,6 @@ app.controller('sessionsCtrl',function($scope, $modal, $sce){
                         return sessionObj;
                     }
                     sessionObj.session = $scope.getSessionById(sessionObj.sessionId);
-                    if(!sessionObj.session.desHtml) {
-                        sessionObj.session.desHtml = $sce.trustAsHtml(sessionObj.session.des);
-                    }
                     if (sessionObj.session.speakerIds){
                         sessionObj.speakers = [];
                         for (var j = 0; j < sessionObj.session.speakerIds.length; j++) {

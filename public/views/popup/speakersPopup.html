@@ -24,7 +24,7 @@
 
     <div class="modal-body container-fluid">
         <div class="text-center">
-            <span style="font-family: google-sans">{{speaker.description}}</span>
+            <span style="font-family: google-sans" ng-bind-html="speaker.description | sanitize"></span>
         </div>
     </div>
 
