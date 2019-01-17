@@ -70,13 +70,6 @@
     "des": "To be announced soon"
   },
   {
-    "id":10,
-    "title": "Doing Open Source as a contributor and a maintainer",
-    "speaker" : "Isabel Costa",
-    "speakerId" : 10,
-    "des": "When I was accepted into Google Summer of Code program, I was a total beginner at Open Source. I did some very small contributions but was still very intimidated by Open Source. I started the program as a student working on the project I proposed with the help of my mentors and community and after it ended I became a maintainer. As a contributor, I had to work on projects I didn’t know much as a maintainer I had to make sure the project was ready and friendly to outside contributors. In this talk, I want to share my learnings and perspective from working in Open Source being in both sides, while sharing some tips on how to start contributing to a new project and keeping a project beginner friendly."
-  },
-  {
     "id":11,
     "title": "Modularisation: what could go wrong?",
     "speaker" : "Pedro Machado & Mostafa Hanafy",

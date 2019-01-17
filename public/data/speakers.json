@@ -92,14 +92,6 @@
     "description": "Design Manager at WIT Software. Digital design nerd, UX tinkerer, Product Design addict, 3D junkie and code monkey wannabe. Into obscure pop culture references, hygge and early Schwarzenegger movies."
   },
   {
-    "id":10,
-    "name": "Isabel Costa",
-    "title": "Open Source",
-    "company": "Grupo Impresa",
-    "profileImg": "assets/img/speakers/Isabel_Costa.png",
-    "description": "Isabel is a Software Developer at Grupo Impresa. She got into Open Source through Google Summer of Code (GSoC) program in 2018. During her time as a GSoC student, she started a project with Systers Open Source community, using python for the backend and Kotlin for the Android application. She started as a student and now is one of the maintainers of the project, using it to help beginners at Open Source do their first contributions."
-  },
-  {
     "id":12,
     "name": "Alex Barlow",
     "title": "Microservices",
