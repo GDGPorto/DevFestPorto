@@ -60,7 +60,7 @@
     "title": "Clean Architecture and white label - a case study",
     "speaker" : "João Reis",
     "speakerId" : 8,
-    "des": "Available soon"
+    "des": "Building white label apps can be a daunting task, especially because requirements and design will most likely change from client to client. At eBankIT we address this challenge by taking yet another approach to the good old clean architecture.<br>This talk will dive into the concepts of Clean Architecture applied to Android with a modular and semi-functional approach by leveraging the features of the Kotlin language and Kotlin co-routines."
   },
   {
     "id":9,
