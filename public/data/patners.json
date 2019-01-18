@@ -47,6 +47,27 @@
       "sponsorType": "partner"
     },
     {
+      "name": "UPTEC",
+      "URL": "https://uptec.up.pt/",
+      "PartnerImg": "assets/img/patners/uptec.png",
+      "width": "260h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "itJobs",
+      "URL": "https://www.itjobs.pt/",
+      "PartnerImg": "assets/img/patners/itjobs.png",
+      "width": "260h",
+      "sponsorType": "partner"
+    },
+    {
+      "name": "nei-isep",
+      "URL": "https://www.nei-isep.org/",
+      "PartnerImg": "assets/img/patners/nei.png",
+      "width": "260h",
+      "sponsorType": "partner"
+    },
+    {
       "name": "WIT Software",
       "URL": "https://www.wit-software.com/",
       "PartnerImg": "assets/img/patners/wit-logo.png",
