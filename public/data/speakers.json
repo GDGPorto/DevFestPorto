@@ -128,11 +128,12 @@
     "socialNetwork": "https://github.com/ruimendesM"
   },
   {
-    "id":100,
-    "name": "To be announced soon",
-    "title": "To be announced soon",
-    "company": "To be announced soon",
-    "profileImg": "assets/img/speakers/avatar.png",
-    "description": "To be announced soon"
+    "id":16,
+    "name": "José Silva",
+    "title": "Angular, Web",
+    "company": "Critical Manufacturing",
+    "profileImg": "assets/img/speakers/Jose.jpg",
+    "description": "Web enthusiast, with the mission of bringing enterprise applications up to speed with Web Standards. José has been developing enterprise web applications with Angular (+2) since 2015 and is an avid “code once, use it everywhere” advocate.<br>José also volunteers as IEEE Portugal Chairman, supporting an amazing team of Engineers throughout the country, actively contributing to IEEE standards. On his free time, he plays the Tuba on some local groups and ensembles in north Portugal.",
+    "socialNetwork": "https://www.linkedin.com/in/jpsfs/?locale=en_US"
   }
 ]

@@ -92,6 +92,13 @@
     "speakerId" : 15,
     "des": "Have you ever wondered how you could build your own Assistant?<br>In this talk I will guide you on the process of creating a simple assistant.<br>DialogFlow will be our NLP (Natural Language Processor), Firebase Cloud Functions will be used to process the commands and you will even see how you could integrate it with your own Android App.<br>Exciting stuff!"
   },
+  {
+    "id":14,
+    "title": "Angular  -  Building Enterprise Applications (Still)",
+    "speaker" : "José Silva",
+    "speakerId" : 16,
+    "des": "In 2015, when Angular 2 was launched, I made a presentation on this very event talking about all the reasons why you should pick Angular 2 as your Web Development framework. Now, more than 2 years later, I bring to you why should still pick Angular as your go to framework for web and desktop applications.<br>In Critical Manufacturing we started our MES product journey in HTML5 right with Angular from the very beginning. We  soon realized that we could do much more than just a Single Page Application. We turned Angular into the foundation of every frontend we do, from the product UI itself, to it’s documentation and even its installer.<br><br>Enter this journey with us and discover what Angular can do for you!"
+  },
 
 
 
@@ -113,12 +120,5 @@
     "speakerId" : 5,
     "workshop" : true,
     "des": "Come in with a basic knowledge of what is get out with a working app on your smartphone.<br>This workshop is for curious and beginners with Flutter, we will be building an app from scratch while experimenting with various views.<br>Please bring your own laptop with Flutter install, follow this link for so: https://flutter.io/docs/get-started/install<br>Also have installed:<br>- Visual Studio Code ( with Flutter and Dart Plugins Installed)<br>- Git"
-  },
-  {
-    "id":100,
-    "title": "To be announced soon",
-    "speaker" : "To be announced soon",
-    "speakerId" : 100,
-    "des": "To be announced soon"
   }
 ]
